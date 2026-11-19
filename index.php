@@ -76,6 +76,19 @@
         <div class="card">
             <h2>Condicionais</h2>
 
+            <?php 
+                $notaAluno = 8;
+
+                if($notaAluno >= 7) {
+                    $resultado = "Aprovado";
+                 } else {
+                    $resultado = "Reprovado";
+                 }
+            
+            ?>
+
+            <p><strong>Resultado:</strong><?= $resultado ?> </p>
+
 
         </div>
 
