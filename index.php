@@ -69,7 +69,12 @@
             <p>Multiplicação: <strong><?= $multiplicacao ?></strong></p>
             <p>Divisão: <strong><?= $divisao ?></strong></p>
 
-            <p></p>
+
+        </div>
+
+
+        <div class="card">
+            <h2>Condicionais</h2>
 
 
         </div>
